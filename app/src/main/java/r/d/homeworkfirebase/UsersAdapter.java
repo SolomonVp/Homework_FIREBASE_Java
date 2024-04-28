@@ -8,13 +8,20 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.Firebase;
+
 import java.util.List;
 
 public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UsersViewHolder> {
 
-    private List<User> users; // !!!!!!!!!!!!!!!!!!!!!!
-
-    public UsersAdapter(List<User> users) { // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    private List<User> users;
+    public UsersAdapter(List<User> users) {
+        this.users = users;
+    }
+    public List<User> getUsers() {
+        return users;
+    }
+    public void setUsers(List<User> users) {
         this.users = users;
     }
 
