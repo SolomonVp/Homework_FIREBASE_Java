@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HomeWork Firebase</string>
+    <string name="label_name">Name:</string>
+    <string name="label_last_name">Last name:</string>
+    <string name="label_sex">Sex:</string>
+    <string name="label_age">Age:</string>
+    <string name="any_jeremy">Jeremy</string>
+    <string name="any_jones">Jones</string>
+    <string name="any_not_woman">not woman...</string>
+    <string name="any_57">57</string>
+    <string name="desc_button">button</string>
+    <string name="button_save_user">Сохранить пользователя</string>
+</resources>
